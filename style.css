@@ -1,0 +1,177 @@
+
+body {
+    margin: 0;
+    padding: 0;  
+    background-color: #F0F0F0;
+}
+
+
+#main-container {
+    position: absolute;
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    /*outline: 1px solid blue;*/
+}
+
+#pink-box {
+    background-color: #83B692;
+    height: 500px;
+    width: 350px;
+    border: 30px solid #F9627D;
+    position: relative;
+    opacity: 0.8;
+    bottom: 60px;
+    left: 30px;
+}
+
+#profile {
+    position: relative;
+    height: 550px;
+    bottom: 560px;
+    left: 90px;
+}
+
+#home-box {
+    padding-top: 150px;
+    position: absolute;
+}
+
+#text-box {
+    background-color: #FAFAFA;
+    position: relative;
+    height: 550px;
+    width: 550px;
+    display: inline-block;
+    bottom: 620px;
+    left: 560px;
+    z-index: 1;
+}
+
+#gray-box {
+    background-color: #D3D3D3;
+    position:  relative;
+    height: 550px;
+    width: 520px;
+    display: inline-block;
+    bottom: 1114px;
+    left: 650px;
+    z-index: 0;
+}
+
+#right-box {
+    position: absolute;
+    top: 710px;
+    
+}
+
+.hello {
+    position: relative;
+    font-family: 'Cedarville Cursive', cursive;
+    padding-left: 45px;
+    font-size: 65px;
+    color: #3891A6;
+}
+
+#hello-underline {
+    border-bottom: 2px solid #3891A6;
+    position: relative;
+    bottom: 25px;
+    width: 440px;
+    left: 40px;
+    background-color: #3891A6;  
+}
+
+.about {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 70px;
+    margin: 0px;
+    font-size: 20px;
+    color: #404040;
+    line-height: 135%
+}
+
+#arrow {
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    height: 30px;
+}
+
+.project {
+    position: relative;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #3891A6;
+    font-size: 70px;
+    top: 940px;
+    left: 50px;
+}
+
+#proj-underline {
+    border-bottom: 2px solid #3891A6;
+    position: relative;
+    background-color: #3891A6;
+    top: 910px;
+    width: 1140px;
+    left: 30px;
+}
+
+.proj-gray-box {
+    background-color: #D3D3D3;
+    position: relative;
+    height: 325px;
+    width: 325px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+    z-index: 0;
+}
+
+#proj-container {
+    position: absolute;
+    top: 1110px;
+}
+
+#proj-pic {
+    position: relative;
+    z-index: 1;
+    width: 325px;
+    bottom: 329px;
+    margin-left: 60px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 1px #888888;
+}
+
+.view-code {
+    position: relative;
+    z-index: 2;
+    bottom: 645px;
+    margin: 30px;
+    margin-right: 60px;
+    padding: 90px;
+    left: 50px;
+
+}
+
+.contact {
+    position: relative;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #3891A6;
+    font-size: 70px;
+    top: 1440px;
+    left: 50px;
+}
+
+#contact-underline {
+    border-bottom: 2px solid #3891A6;
+    position: relative;
+    background-color: #3891A6;
+    top: 1410px;
+    width: 1140px;
+    left: 30px;
+}
