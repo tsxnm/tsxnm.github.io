@@ -12,7 +12,7 @@ body {
     height: 100%;
     margin: auto;
     top: 0; left: 0; bottom: 0; right: 0;
-    outline: 1px solid blue;
+    /*outline: 1px solid blue;*/
 }
 
 #pink-box {
