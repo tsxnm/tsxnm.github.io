@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;  
     background-color: #E8F1E3;
+    
 }
 
 
@@ -31,10 +32,7 @@ body {
     position: relative;
     height: 340px;
     left: 30px;
-    top: 30px;
-    transition-timing-function: ease-in;
- 
-   
+    top: 30px;   
 }
 
 #second-box {
@@ -181,6 +179,7 @@ body {
 }
 
 #buffer {
+    position: relative;
     height: 200px;
 }
 
@@ -278,12 +277,10 @@ body {
     height: 340px;
     left: 30px;
     bottom: 314.5px;
-    transition-timing-function: ease-in;
-    
-  
+
 }
 
-#second-profile:hover{
+#second-profile:active{
     display: none;
     
 }
