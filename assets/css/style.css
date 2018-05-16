@@ -19,8 +19,10 @@ body {
     width: 450px;
     border: 8px solid #7EBC89;
     position: relative;
-    top: 15%;
-    right: 20%;
+    /**top: 15%;
+    right: 20%;**/
+    top: 145px;
+    right: 220px;
     margin: auto;
     border-radius: 50%;
 }
@@ -30,6 +32,9 @@ body {
     height: 340px;
     left: 30px;
     top: 30px;
+    transition-timing-function: ease-in;
+ 
+   
 }
 
 #second-box {
@@ -47,10 +52,11 @@ body {
 #textbox {
     width: 400px;
     height: 500px; 
-    /**outline: 4px solid black;**/
     position: relative;
-    left: 54.5%;
-    bottom: 34%;
+    /**left: 54.5%;
+    bottom: 34%;**/
+    left: 600px;
+    bottom: 325px;
     
 }
 
@@ -147,9 +153,6 @@ body {
 }
 
 
-
-
-
 .subtitle {
     font-family: 'Roboto',sans-serif;
     font-size: 40px;
@@ -196,4 +199,91 @@ body {
     position: fixed;
     background-color: #E8F1E3;
     opacity: 0.95;
+}
+
+@media screen and (max-width: 800px) {
+    .menu_item {
+        color: #414141;
+        font-family: 'Roboto',sans-serif;
+        font-size: 25px;
+        padding-top: 1em;
+        padding-bottom: .75em;
+        text-align: center;
+        transition-duration: 0.5s;
+        border-radius: 30px;
+        opacity: 1.0;
+        text-decoration: none;
+}
+    .menu_bar li {
+        display: block;
+        width: 8em;
+}
+    .menu_bar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+}
+    .menu_bar {
+        z-index: 4;
+        right: 55%;
+        position: absolute;
+    }
+    #textbox {
+        width: 400px;
+        height: 500px; 
+        position: relative;
+        left: 15%;
+        top: 50%;
+    
+}
+    #pink-box {
+        /**background-color: #83B692;**/
+        height: 450px;
+        width: 450px;
+        border: 8px solid #7EBC89;
+        position: relative;
+        top: 50%;
+        right: 15%;
+        margin: auto;
+        border-radius: 50%;
+}
+    .subtitle {
+        font-family: 'Roboto',sans-serif;
+        font-size: 40px;
+        color: #414141;
+        position:relative;
+        top: 30%;
+        padding: 10px; 
+        margin-left: 15%;
+        margin-top: 13%;
+}
+
+    .border {
+        border: 3px solid #749F84;
+        position: relative;
+        margin-left: 12%;
+        margin-right: 12%;
+        border-radius: 20px;
+        top: 30%;
+        width: 50%;
+}
+
+
+    
+}
+
+#second-profile {
+    position: relative;
+    height: 340px;
+    left: 30px;
+    bottom: 314.5px;
+    transition-timing-function: ease-in;
+    
+  
+}
+
+#second-profile:hover{
+    display: none;
+    
 }
