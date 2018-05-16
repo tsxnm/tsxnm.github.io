@@ -272,15 +272,4 @@ body {
     
 }
 
-#second-profile {
-    position: relative;
-    height: 340px;
-    left: 30px;
-    bottom: 314.5px;
 
-}
-
-#second-profile:hover{
-    display: none;
-    
-}
